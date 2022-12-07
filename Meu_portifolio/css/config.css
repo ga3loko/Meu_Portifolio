@@ -1,0 +1,206 @@
+.container {
+    max-width:960px;
+    margin: auto;
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+    }
+.title h1{       
+    font-size:3em;
+    border-bottom: #ccc 1px solid;
+    padding-bottom:1rem;
+    text-align: center;
+    }
+.home p{
+    text-align: justify;
+    }
+header{
+    min-height: 70px;
+    background-color: black;
+}
+body{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.menu li{
+    padding: 20px;
+    min-width: 100px;
+}
+.menu a:link{
+    color: #6c757d;
+    text-decoration: none;
+}
+.menu a:visited{
+    color: #6c757d;
+    text-decoration: none;
+}
+.menu a:active{
+    color: #6c757d;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #e41111;
+    text-decoration: none;
+}
+footer{
+    background-color: #f5f5f5;
+    color: #6c757d;
+    font-size: .8em;
+    bottom:0;
+    width: 100%;
+}
+.pop{
+    position: fixed;
+}
+footer p{
+    line-height: 35px;
+}
+footer .container{
+    display: flex;
+}
+footer .menu a{
+    color: #6c757d;
+}
+img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.INS{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+canvas{
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    border: 10px solid black;
+}
+.game{
+    margin:0;
+    padding: 0;
+    background-color:gray;
+}
+.box {
+    border: 5px solid black;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: gray;
+    margin-bottom: 50px;
+}
+.box h2{
+    border-bottom: 2px solid black;
+    margin-bottom: 48px;
+}
+.ImagensPortifolio {
+    position: relative;
+    padding-right: 6.7%;
+    padding-left: 6.7%;
+    display: inline;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.ImagensPortifolio #image{
+    width: 19%;
+    height: 19%;
+}
+.ImagensPortifolio :hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#comentario{
+    position: absolute;
+    display: block;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(56, 56, 56, 0.5);
+    width: 40%;
+    opacity: 0;
+    margin-top: 10px;
+}
+.ImagensPortifolio:hover #comentario{
+    opacity:1;
+}
+.information{
+    padding: 80px, 180px, 80px, 100px;
+}
+.information img{
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+}
+.information h1{
+    color: black;
+    font-weight: bolder;
+}
+.information h2{
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.ImagensPortifolio a:link{
+    color: white;
+    text-decoration: none;
+}
+.ImagensPortifolio a:visited{
+    color: white;
+    text-decoration: none;
+}
+.ImagensPortifolio a:active{
+    color: white;
+    text-decoration: none;
+}
+.ImagensPortifolio a:hover{
+    color: #e41111;
+    text-decoration: none;
+}
+.information2{
+    display: flex;
+    align-items: stretch;
+}
+
+.informationIMG{
+    margin-top: 2%;
+    margin-left: 1%;
+    float: left;
+}
+
+.informationText{
+    margin-left: 3%;
+    float:left;
+    margin-bottom: 20px;
+}
+
+.informationText h1{
+    font-weight: bolder;
+    font-size: 32px;
+}
+.informationText h2{
+    font-weight: normal;
+}
+.informationIMG img{
+    border: 5px solid black;
+}
