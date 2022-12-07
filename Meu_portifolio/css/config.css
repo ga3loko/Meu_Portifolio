@@ -56,7 +56,7 @@ footer{
     width: 100%;
 }
 .pop{
-    position: fixed;
+    position: absolute;
 }
 footer p{
     line-height: 35px;
